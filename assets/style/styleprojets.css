@@ -1,0 +1,63 @@
+#global{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100% auto;
+    height: 100% auto;
+    margin:0 auto;
+    padding:0 auto;
+    background: url(../media/fond/poke.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.titreso{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#soleil:hover{
+    filter: drop-shadow(2px 2px 1px  rgb(165, 162, 19));
+}
+header h1 img{
+    filter: drop-shadow(0px 0px 10px  black);
+    margin-bottom: 150px;
+}
+footer{
+    display: flex;
+    position: sticky;
+}
+footer div{
+    display: flex;
+    padding: 5px;
+}
+footer div a{
+    margin: 2px;
+}
+footer #copy{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 5px;
+}
+#logo{
+    display: block;
+    width: 250px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projetcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    border: none;
+    filter: drop-shadow(3px 3px 3px black);
+}
+.push1{
+    height: 200px; 
+}

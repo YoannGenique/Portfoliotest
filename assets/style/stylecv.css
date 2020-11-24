@@ -1,0 +1,126 @@
+@font-face{
+    font-family: 'AlphaClouds';
+    src: url('../fonts/AlphaClouds.ttf') format('truetype');
+    /* src: url(../fonts/AlphaClouds.ttf); */
+}
+#global{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100% auto;
+    height: 100% auto;
+    margin:0 auto;
+    padding:0 auto;
+    background: url(../media/fond/poke.jpg) no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.titreso{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#soleil:hover{
+    filter: drop-shadow(2px 2px 1px  rgb(165, 162, 19));
+}
+header h1 img{
+    filter: drop-shadow(0px 0px 10px  black);
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    position: sticky;
+}
+footer div{
+    display: flex;
+    padding: 5px;
+}
+footer div a{
+    margin: 2px;
+}
+footer #copy{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 5px;
+}
+#logo{
+    display: block;
+    width: 250px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    filter: drop-shadow(3px 3px 3px black);
+}
+#pdf{
+    text-align: center;
+    margin-top: 100px;
+}
+.card-body{
+    background-image: url(../media/cv/fond/fondtxt.png);
+    background-size: cover;
+}
+#imgcomp{
+    text-align: center;
+    margin: 20px;
+}
+.titre{
+    font-family: 'AlphaClouds';
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#comp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.decocard{
+    border: none;
+    filter: drop-shadow(5px 5px 5px black);
+}
+.h2titre1{
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url(../media/cv/fond/titre2.png);
+    background-size: cover;
+}
+.h2titre2{
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url(../media/cv/fond/titre3.png);
+    background-size: cover;
+}
+.h2titre3{
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url(../media/cv/fond/titre4.png);
+    background-size: cover;
+}
+.h2titre4{
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url(../media/cv/fond/titre.png);
+    background-size: cover;
+}
+.h2titre5{
+    /* background-color: rgb(0, 140, 255); */
+    background-image: url(../media/cv/fond/titre5.png);
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-weight: bold;
+}
+h3{
+    margin-top: 10px;
+}
+.push1{
+    height: 100px; 
+}
